@@ -1,0 +1,638 @@
+db.menu.insert(
+[
+    {
+        "menu_id": 1,
+        "menu_name": "box meal",
+        "menu_image": "https://i.ibb.co/ypSyrBt/BOX-MEALS.jpg",
+        "boxMeal_list": [
+            {
+                "item_id": 1,
+                "item1": "All Chicken Box",
+                "item1_image": "https://i.ibb.co/jgqdKDs/All-Chicken-Box-Meal.jpg",
+                "item1_type": "Non veg",
+                "description": "A Box with your favorites! Get 1 pc Hot & Crispy, 2 Hot Wings & 1 Chicken Strip at a deal price",
+                "item1_price": "189"
+            },
+            {
+                "item_id": 2,
+                "item2": "Zinger Tandoori Box",
+                "item2_image": "https://i.ibb.co/jLnsMc0/Zinger-Tandoori-Box.jpg",
+                "item2_type": "Non veg",
+                "description": "A deal for Tandoori lovers : Get 1 Tandoori Zinger, 2 Hot Wings, 1 Veg Patty & 1 Pepsi 475ml",
+                "item2_price": "313"
+            },
+            {
+                "item_id": 3,
+                "item3": "Popcorn Biryani Box",
+                "item3_image": "https://i.ibb.co/h24HvdH/Popcorn-Biryani-Box.jpg",
+                "item3_type": "Non veg",
+                "description": "Biryani lovers unite : Get 1 Popcorn Biryani Bucket with gravy, 2 Hot Wings & 1 Pepsi 475ml",
+                "item3_price": "328"
+            },
+            {
+                "item_id": 4,
+                "item4": "Veg Zinger Box",
+                "item4_image": "https://i.ibb.co/FgtKYpp/Veg-Zinger-Box.jpg",
+                "item4_type": "Veg",
+                "description": "A deal for the Veg Zinger lovers : Get 1 Veg Zinger, 2 Veg Patties & 1 Pepsi 475ml",
+                "item4_price": "313"
+            },
+            {
+                "item_id": 5,
+                "item5": "Veg Biryani Box",
+                "item5_image": "https://i.ibb.co/pWt3fbY/Veg-Biryani-Box.jpg",
+                "item5_type": "Veg",
+                "description": "Biryani lovers unite : Get 1 Veg Biryani Bucket with gravy, 1 Veg Patty & 1 Pepsi 475ml",
+                "item5_price": "279"
+            }]    
+    },
+    {
+        "menu_id": 2,
+        "menu_name": "Biryani Buckets",
+        "menu_image": "https://i.ibb.co/Z6LNrJQ/BIRYANI-BUCKETS.jpg",
+        "Biryani_list": [
+            {
+                "item_id": 1,
+                "item1": "Classic Biryani Combo",
+                "item1_image": "https://i.ibb.co/3WHrSzr/Classic-Biryani-Combo.jpg",
+                "item1_type": "Non veg",
+                "description": "Large Biryani rice with 2 Hot & Crispy, 2 Gravies, 4 Strips & 1 Pepsi 475ml",
+                "item1_price": "740"
+            },
+            {
+                "item_id": 2,
+                "item2": "Smoky Grilled Biryani Combo",
+                "item2_image": "https://i.ibb.co/MfGxDXM/Smoky-Grilled-Biryani-Combo.jpg",
+                "item2_type": "Non veg",
+                "description": "Large Biryani rice with 2 Smoky Red, 2 Gravies, Med Popcorn & 1 Pepsi 475ml",
+                "item2_price": "740"
+            },
+            {
+                "item_id": 3,
+                "item3": "Popcorn Biryani Combo",
+                "item3_image": "https://i.ibb.co/9TZm58D/Popcorn-Biryani-Combo.jpg",
+                "item3_type": "Non veg",
+                "description": "Large Biryani & Chicken Popcorn, 2 Spicy Gravies, 4 Wings & 1 Pepsi 475ml",
+                "item3_price": "690"
+            },
+            {   
+                "item_id": 4,
+                "item4": "Classic Chicken Biryani Bucket",
+                "item4_image": "https://i.ibb.co/vx0s57n/Classic-Chicken-Biryani-Bucket.jpg",
+                "item4_type": "Non veg",
+                "description": "Large portions of Biryani rice served with 2 pc Hot & Crispy Chicken & 2 Gravies",
+                "item4_price": "475"
+            },
+            {
+                "item_id": 5,
+                "item5": "Popcorn Chicken Biryani Bucket",
+                "item5_image": "https://i.ibb.co/7VFRCq8/Popcorn-Chicken-Biryani-Bucket.jpg",
+                "item5_type": "Non veg",
+                "description": "Large portions of Biryani rice served with Chicken Popcorn & 2 Gravies",
+                "item5_price": "475"
+            },
+            {
+                "item_id": 6,
+                "item6": "Smoky Grilled Biryani Bucket",
+                "item6_image": "https://i.ibb.co/TbtFrTC/Smoky-Grilled-Biryani-Bucket.jpg",
+                "item6_type": "Non veg",
+                "description": "Large portions of Biryani rice served with 2 pc Smoky Red Chicken & 2 Gravies",
+                "item6_price": "475"
+            },
+            {
+                "item_id": 7,
+                "item7": "Veg Biryani Bucket",
+                "item7_image": "https://i.ibb.co/N2pLWJZ/Veg-Biryani-Bucket.jpg",
+                "item7_type": "Veg",
+                "description": "Hyderabadi style Biryani rice served with Veg Patty & Spicy Gravy",
+                "item7_price": "199"
+            }]
+    },
+    {
+        "menu_id": 3,
+        "menu_name": "Burgers",
+        "menu_image": "https://i.ibb.co/pZnMTNz/BURGERS.jpg",
+        "Burgers_list": [
+            {
+                "item_id": 1,
+                "item1": "Family Feast",
+                "item1_image": "https://i.ibb.co/pxfyVCM/Family-Feast.jpg",
+                "item1_type": "Non veg",
+                "description": "Family Deal of 3 chicken zingers, med popcorn, med fries & 1 Pepsi 475ml",
+                "item1_price": "859"
+            },
+            {
+                "item_id": 2,
+                "item2": "2 Chicken Krisper Burgers",
+                "item2_image": "https://i.ibb.co/gw24Dsq/2-Chicken-Krisper-Burgers.jpg",
+                "item2_type": "Non veg",
+                "description": "2 delicious chicken value burgers - at a deal price",
+                "item2_price": "248"
+            },
+            {
+                "item_id": 3,
+                "item3": "2 Veg Krisper Burgers",
+                "item3_image": "https://i.ibb.co/YRr52dc/2-Veg-Krisper-Burgers.jpg",
+                "item3_type": "Veg",
+                "description": "2 delicious veg value burgers - at a deal price",
+                "item3_price": "179"
+            },
+            {
+                "item_id": 4,
+                "item4": "Chicken & Krispers Combo",
+                "item4_image": "https://i.ibb.co/MPsmn0H/Chicken-Krispers-Combo.jpg",
+                "item4_type": "Veg",
+                "description": "Deal of 2 chicken value burgers, 2 Hot & Crispy, 2 dips (20gm each) & 1 Pepsi 475ml",
+                "item4_price": "539"
+            },
+            {
+                "item_id": 5,
+                "item5": "Tandoori Zinger Burger",
+                "item5_image": "https://i.ibb.co/sVZrpZN/Tandoori-Zinger-Burger.jpg",
+                "item5_type": "Non veg",
+                "description": "Chicken zinger with a delicious tandoori sauce",
+                "item5_price": "208"
+            },
+            {
+                "item_id": 6,
+                "item6": "Mixed Zinger Doubles",
+                "item6_image": "https://i.ibb.co/Xpn49v8/Mixed-Zinger-Doubles.jpg",
+                "item6_type": "Non veg",
+                "description": "Best-seller combo of classic chicken zinger & tandoori zinger",
+                "item6_price": "368"
+            },
+            {
+                "item_id": 7,
+                "item7": "Classic Zinger Burger",
+                "item7_image": "https://i.ibb.co/6mmqPzK/Classic-Zinger-Burger.jpg",
+                "item7_type": "Non veg",
+                "description": "Signature burger made with a crunchy chicken fillet, veggies & a delicious mayo sauce",
+                "item7_price": "199"
+            },
+            {
+                "item_id": 8,
+                "item8": "Buddy Meal",
+                "item8_image": "https://i.ibb.co/xqmt2Fk/Buddy-Meal.jpg",
+                "item8_type": "Non veg",
+                "description": "Share 2 Classic Chicken Zingers & a Medium Popcorn in this delightful combo for 2",
+                "item8_price": "528"
+            },
+            {
+                "item_id": 9,
+                "item9": "Veg Zinger Burger",
+                "item9_image": "https://i.ibb.co/mDtGw0b/Veg-Zinger-Burger.jpg",
+                "item9_type": "Veg",
+                "description": "Signature veg burger with crispy patties, veggies & a tangy sauce",
+                "item9_price": "188"
+            },
+            {
+                "item_id": 10,
+                "item10": "2 Veg Krispers Meal",
+                "item10_image": "https://i.ibb.co/VHryCbf/2-Veg-Krispers-Meal.jpg",
+                "item10_type": "Veg",
+                "description": "2 veg value burgers, crispy medium fries & 2 delicious dips (20 gm each) at a deal price",
+                "item10_price": "288"
+            }]
+    },
+    {
+        "menu_id": 4,
+        "menu_name": "Chicken Bucket",
+        "menu_image": "https://i.ibb.co/sKx2h73/CHICKEN-BUCKETS.jpg",
+        "ChickenBucket_list": [
+            {
+                "item_id": 1,
+                "item1": "Bucket for Two",
+                "item1_image": "https://i.ibb.co/5ktTPW7/Bucket-for-Two.jpg",
+                "item1_type": "Non veg",
+                "description": "Flat Rs. 115 off on combo of 2pc Hot & Crispy, 2 pc Smoky Red Chicken & Large Popcorn",
+                "item1_price": "599"
+            },
+            {
+                "item_id": 2,
+                "item2": "Stay Home Bucket",
+                "item2_image": "https://i.ibb.co/gVzgHdQ/Stay-Home-Bucket.jpg",
+                "item2_type": "Non veg",
+                "description": "Save 21% on 4 Hot & Crispy, 4 Wings, 6 Peri Strips & 2 dips (20gm each)",
+                "item2_price": "789"
+            },
+            {
+                "item_id": 3,
+                "item3": "Peri Peri 10 Leg pc & 4 Dips",
+                "item3_image": "https://i.ibb.co/9nHb9cx/Peri-Peri-10-Leg-pc-4-Dips.jpg",
+                "item3_type": "Non veg",
+                "description": "Leg before any wicket! Save 27% on 10 Peri Peri Leg Pieces & 4 Dips (20 gm each)",
+                "item3_price": "924"
+            },
+            {
+                "item_id": 4,
+                "item4": "Peri Peri 5 Leg Pc Meal",
+                "item4_image": "https://i.ibb.co/WxTcyH6/Peri-Peri-5-Leg-Pc-Meal.jpg",
+                "item4_type": "Non veg",
+                "description": "5 Spicy Peri Peri Leg Pieces, 2 Dips (20gm each), 1 Med Fries & 1 Pepsi 475ml",
+                "item4_price": "628"
+            },
+            {
+                "item_id": 5,
+                "item5": "Peri Peri 5 Leg Pc & 2 Dips",
+                "item5_image": "https://i.ibb.co/bJQgpSX/Peri-Peri-5-Leg-Pc-2-Dips.jpg",
+                "item5_type": "Non veg",
+                "description": "5 Spicy Peri Peri Leg Pieces, paired with 2 delicious dips (20gm each)",
+                "item5_price": "515"
+            },
+            {
+                "item_id": 6,
+                "item6": "Big 12",
+                "item6_image": "https://i.ibb.co/pJhMPcb/Big-12.jpg",
+                "item6_type": "Non veg",
+                "description": "Save 28% on 6pc Hot & Crispy Chicken, 6 Hot Wings & 2 dips (20gm each)",
+                "item6_price": "748"
+            },
+            {
+                "item_id": 7,
+                "item7": "Ultimate Savings Bucket",
+                "item7_image": "https://i.ibb.co/5xwZsML/Ultimate-Savings-Bucket.jpg",
+                "item7_type": "Non veg",
+                "description": "Save 35% on 4pc Hot & Crispy, 6 Wings, 4 Strips, 2 Dips (20gm each) & 1 Pepsi 475ml",
+                "item7_price": "699"
+            },
+            {
+                "item_id": 8,
+                "item8": "Big 8",
+                "item8_image": "https://i.ibb.co/py3zXk0/Big-8.jpg",
+                "item8_type": "Non veg",
+                "description": "Save 29% on this variety bucket of 4pc Hot & Crispy chicken & 4pc Smoky Red chicken",
+                "item8_price": "684"
+            },
+            {
+                "item_id": 9,
+                "item9": "5pc Smoky Red Chicken",
+                "item9_image": "https://i.ibb.co/h11s5QQ/5pc-Smoky-Red-Chicken.jpg",
+                "item9_type": "Non veg",
+                "description": "Flat 20% off on 5pc Smoky red grilled chicken",
+                "item9_price": "528"
+            },
+            {
+                "item_id": 10,
+                "item10": "Mingles Bucket Meal",
+                "item10_image": "https://i.ibb.co/d5J9Y7W/Mingles-Bucket-Meal.jpg",
+                "item10_type": "Non veg",
+                "description": "Save Rs. 71 on 4 Wings,2 Peri Strips, Reg Popcorn, Med Fries & 1 Pepsi 475ml",
+                "item10_price": "499"
+            },
+            {
+                "item_id": 11,
+                "item11": "8 pc Hot & Crispy Chicken",
+                "item11_image": "https://i.ibb.co/cC0CHBQ/8-pc-Hot-Crispy-Chicken.jpg",
+                "item11_type": "Non veg",
+                "description": "Save Rs. 182 & get 8pc signature Hot & crispy chicken",
+                "item11_price": "768"
+            },
+            {
+                "item_id": 12,
+                "item12": "6 pc Hot & Crispy Chicken",
+                "item12_image": "https://i.ibb.co/cC0CHBQ/8-pc-Hot-Crispy-Chicken.jpg",
+                "item12_type": "Non veg",
+                "description": "Flat 10% off on 6pc signature Hot & crispy chicken",
+                "item12_price": "628"
+            }]
+    },
+    {
+        "menu_id": 5,
+        "menu_name": "Snacks",
+        "menu_image": "https://i.ibb.co/zht8Zm6/snacks.jpg",
+        "snacks_list":[
+            {
+                "item_id": 1,
+                "item1": "Chocolate Lava Cake",
+                "item1_image": "https://i.ibb.co/8z67q0F/Chocolate-Lava-Cake.jpg",
+                "item1_type": "Veg",
+                "description": "Soft Chocolate cake with a gooey center- perfect chocolaty end to every meal",
+                "item1_price": "108"
+            },
+            {
+                "item_id": 2,
+                "item2": "Chicken & Fries Bucket",
+                "item2_image": "https://i.ibb.co/GCGDNdj/Chicken-Fries-Bucket.jpg",
+                "item2_type": "Non veg",
+                "description": "Crowd-favorite combo of 2pc Hot & Crispy chicken with Medium Fries",
+                "item2_price": "299"
+            },
+            {
+                "item_id": 3,
+                "item3": "Popcorn & Fries bucket",
+                "item3_image": "https://i.ibb.co/CJZZ86Y/Popcorn-Fries-bucket.jpg",
+                "item3_type": "Non veg",
+                "description": "Large Chicken Popcorn with Med Fries - at a deal price",
+                "item3_price": "319"
+            },
+            {
+                "item_id": 4,
+                "item4": "Mingles Bucket",
+                "item4_image": "https://i.ibb.co/18xcTcQ/Mingles-Bucket.jpg",
+                "item4_type": "Non veg",
+                "description": "Save 13% on this mingle of 4 Wings, 2 chicken peri peri boneless strips & a Reg Popcorn",
+                "item4_price": "339"
+            },
+            {
+                "item_id": 5,
+                "item5": "4pc Hot & Crispy Chicken",
+                "item5_image": "https://i.ibb.co/1zwcyw4/4pc-Hot-Crispy-Chicken.jpg",
+                "item5_type": "Non veg",
+                "description": "4 pcs of signature Hot & crispy chicken at a deal price",
+                "item5_price": "420"
+            },
+            {
+                "item_id": 6,
+                "item6": "Large Popcorn",
+                "item6_image": "https://i.ibb.co/dB3GyDd/Large-Popcorn.jpg",
+                "item6_type": "Non veg",
+                "description": "Signature bite-sized boneless chicken, with special spices",
+                "item6_price": "248"
+            },
+            {
+                "item_id": 7,
+                "item7": "Medium Popcorn",
+                "item7_image": "https://i.ibb.co/zFPLpkk/Medium-Popcorn.jpg",
+                "item7_type": "Non veg",
+                "description": "Signature bite-sized boneless chicken, with special spices",
+                "item7_price": "168"
+            },
+            {
+                "item_id": 8,
+                "item8": "Regular Popcorn",
+                "item8_image": "https://i.ibb.co/hdXBvh8/Regular-Popcorn.jpg",
+                "item8_type": "Non veg",
+                "description": "Signature bite-sized boneless chicken, with special spices",
+                "item8_price": "115"
+            },
+            {
+                "item_id": 9,
+                "item9": "Large Fries",
+                "item9_image": "https://i.ibb.co/KKW0sSf/Large-Fries.jpg",
+                "item9_type": "Veg",
+                "description": "Jazz up your meal with crispy large fries!",
+                "item9_price": "119"
+            },
+            {
+                "item_id": 10,
+                "item10": "2 pcs Smoky Red Chicken",
+                "item10_image": "https://i.ibb.co/2ys1hY5/2-pcs-Smoky-Red-Chicken.jpg",
+                "item10_type": "Non veg",
+                "description": "Spicy, red, grilled chicken",
+                "item10_price": "248"
+            },
+            {
+                "item_id": 11,
+                "item11": "Medium Fries",
+                "item11_image": "https://i.ibb.co/Z8JdhK0/Medium-Fries.jpg",
+                "item11_type": "Veg",
+                "description": "Jazz up your meal with Crispy Fries!",
+                "item11_price": "99"
+            },
+            {
+                "item_id": 12,
+                "item12": "2 pc Hot & Crispy Chicken",
+                "item12_image": "https://i.ibb.co/PDLMjRv/2-pc-Hot-Crispy-Chicken.jpg",
+                "item12_type": "Non veg",
+                "description": "Signature Hot & crispy chicken",
+                "item12_price": "229"
+            },
+            {
+                "item_id": 13,
+                "item13": "1 pc Smoky Red Chicken",
+                "item13_image": "https://i.ibb.co/4Sxt8tp/1-pc-Smoky-Red-Chicken.jpg",
+                "item13_type": "Non veg",
+                "description": "Spicy, red, grilled chicken",
+                "item13_price": "124"
+            },
+            {
+                "item_id": 14,
+                "item14": "4pc Hot Chicken Wings",
+                "item14_image": "https://i.ibb.co/vj1Y7Lr/4pc-Hot-Chicken-Wings.jpg",
+                "item14_type": "Non veg",
+                "description": "Seasoned, signature KFC chicken wings",
+                "item14_price": "179"
+            },
+            {
+                "item_id": 15,
+                "item15": "Choco Mud Pie",
+                "item15_image": "https://i.ibb.co/KVXP5hn/Choco-Mud-Pie.jpg",
+                "item15_type": "Veg",
+                "description": "Chocolate lovers unite! Say hello to our creamy chocolate & cake dessert- a must try!",
+                "item15_price": "129"
+            },
+            {
+                "item_id": 16,
+                "item16": "Peri Peri 3pc Chicken Strips",
+                "item16_image": "https://i.ibb.co/pP8cGyk/Peri-Peri-3pc-Chicken-Strips.jpg",
+                "item16_type": "Non veg",
+                "description": "3 Spicy Peri Peri chicken strips",
+                "item16_price": "180"
+            },
+            {
+                "item_id": 17,
+                "item17": "2 pc Veg Patty",
+                "item17_image": "https://i.ibb.co/dtJGmn7/2-pc-Veg-Patty.jpg",
+                "item17_type": "Veg",
+                "description": "Delicious, crispy, veg add-on",
+                "item17_price": "155"
+            },
+            {
+                "item_id": 18,
+                "item18": "Coffee Mousse Cake",
+                "item18_image": "https://i.ibb.co/j375xg6/Coffee-Mousse-Cake.jpg",
+                "item18_type": "Veg",
+                "description": "Coffee, chocolate, cake…whats not to love? Enjoy this for coffee-licious temptations!",
+                "item18_price": "128"
+            },
+            {
+                "item_id": 19,
+                "item19": "Tandoori Masala Dip -20gm",
+                "item19_image": "https://i.ibb.co/2cYnmhx/Tandoori-Masala-Dip-20gm.jpg",
+                "item19_type": "Veg",
+                "description": "Special tandoori flavor dip to add a twist to your meal",
+                "item19_price": "128"
+            },
+            {
+                "item_id": 20,
+                "item20": "Pack of 4 Dips -20gm each",
+                "item20_image": "https://i.ibb.co/prhkGm1/Pack-of-4-Dips-20gm-each.jpg",
+                "item20_type": "Veg",
+                "description": "Adding dips is always a good idea!",
+                "item20_price": "109"
+            },
+            {
+                "item_id": 21,
+                "item21": "Nashville Hot Pepper Dip-20gm",
+                "item21_image": "https://i.ibb.co/DMPnj0f/Nashville-Hot-Pepper-Dip-20gm.jpg",
+                "item21_type": "Veg",
+                "description": "Hot, peppery goodness of Nashville - our new signature dip",
+                "item21_price": "29"
+            },
+            {
+                "item_id": 22,
+                "item22": "Pack of 2 Dips-20gm each",
+                "item22_image": "https://i.ibb.co/jWmH4pv/Pack-of-2-Dips-20gm-each.jpg",
+                "item22_type": "Veg",
+                "description": "Adding dips is always a good idea!",
+                "item22_price": "57"
+            },
+            {
+                "item_id": 23,
+                "item23": "Dynamite Spicy Mayo Dip-20gm",
+                "item23_image": "https://i.ibb.co/86QgMQ4/Dynamite-Spicy-Mayo-Dip-20gm.jpg",
+                "item23_type": "Veg",
+                "description": "Spicy, punchy mayo -our new signature dip",
+                "item23_price": "28"
+            },
+            {
+                "item_id": 24,
+                "item24": "Buttered Bun",
+                "item24_image": "https://i.ibb.co/C5KWssb/Buttered-Bun.jpg",
+                "item24_type": "Veg",
+                "description": "Buttered, soft bun - pairs well with all things KFC",
+                "item24_price": "35"
+            },
+            {
+                "item_id": 25,
+                "item25": "Biryani Rice",
+                "item25_image": "https://i.ibb.co/1Gc2vNC/Biryani-Rice.jpg",
+                "item25_type": "Veg",
+                "description": "Flavorful aromatic rice to pair with your KFC favorites",
+                "item25_price": "139"
+            }]
+    },
+    {
+        "menu_id": 6,
+        "menu_name": "Beverages",
+        "menu_image": "https://i.ibb.co/b7wL7n3/beverages.jpg",
+        "beverages_list": [
+            {
+                "item_id": 1,
+                "item1": "Pepsi 475ml PET",
+                "item1_image": "https://i.ibb.co/88P1JQc/Pepsi-475ml-PET.jpg",
+                "item1_type": "Veg",
+                "description": "Pepsi 475ml PET",
+                "item1_price": "57"
+            },
+            {
+                "item_id": 2,
+                "item2": "Pepsi Can 300 ml",
+                "item2_image": "https://i.ibb.co/mXfWYj2/Pepsi-Can-300-ml.jpg",
+                "item2_type": "Veg",
+                "description": "Pepsi Can 300 ml",
+                "item2_price": "57"
+            },
+            {
+                "item_id": 3,
+                "item3": "7UP Can 300 ml",
+                "item3_image": "https://i.ibb.co/H7dYXfx/7-UP-Can-300-ml.jpg",
+                "item3_type": "Veg",
+                "description": "7UP Can 300 ml",
+                "item3_price": "57"
+            },
+            {
+                "item_id": 4,
+                "item4": "Pepsi Black Can 300 ml",
+                "item4_image": "https://i.ibb.co/MSyh5ZV/Pepsi-Black-Can-300-ml.jpg",
+                "item4_type": "Veg",
+                "description": "Pepsi Black Can 300 ml",
+                "item4_price": "57"
+            },
+            {
+                "item_id": 5,
+                "item5": "Mirinda Can 300 ml",
+                "item5_image": "https://i.ibb.co/sJVZq2k/Mirinda-Can-300-ml.jpg",
+                "item5_type": "Veg",
+                "description": "Mirinda Can 300 ml",
+                "item5_price": "57"
+            }]
+    },
+    {
+        "menu_id": 7,
+        "menu_name": "Chicken Rolls",
+        "menu_image": "https://i.ibb.co/4p557j8/CHICKEN-ROLLS.jpg",
+        "chickenRolls_list": [
+            {
+                "item_id": 1,
+                "item1": "Classic Chicken Roll & Pepsi Combo",
+                "item1_image": "https://i.ibb.co/xLbxtDb/Classic-Chicken-Roll-Pepsi-Combo.jpg",
+                "item1_type": "Non veg",
+                "description": "Our new Classic Chicken Roll served with Pepsi 475ml",
+                "item1_price": "176"
+            },
+            {
+                "item_id": 2,
+                "item2": "Double Chicken Roll & Pepsi Combo",
+                "item2_image": "https://i.ibb.co/PxRdpcd/Double-Chicken-Roll-Pepsi-Combo.jpg",
+                "item2_type": "Non veg",
+                "description": "Our new Double Chicken Roll served with Pepsi 475ml",
+                "item2_price": "225"
+            },
+            {
+                "item_id": 3,
+                "item3": "Classic Chicken Roll Meal for 1",
+                "item3_image": "https://i.ibb.co/LPmKX2X/Classic-Chicken-Roll-Meal-for-1.jpg",
+                "item3_type": "Non veg",
+                "description": "Deal combo of 1 Classic Chicken Roll, Large Fries, 2 Dips & Pepsi 475ml",
+                "item3_price": "339"
+            },
+            {
+                "item_id": 4,
+                "item4": "Double Chicken Roll Meal for 1",
+                "item4_image": "https://i.ibb.co/Y31scmW/Double-Chicken-Roll-Meal-for-1.jpg",
+                "item4_type": "Non veg",
+                "description": "Deal combo of 1 Double Chicken Roll, Large Fries, 2 Dips & Pepsi 475ml",
+                "item4_price": "379"
+            },
+            {
+                "item_id": 5,
+                "item5": "Classic Chicken Roll",
+                "item5_image": "https://i.ibb.co/F5L5pJ2/Classic-Chicken-Roll.jpg",
+                "item5_type": "Non veg",
+                "description": "KFC's take on the street style roll with single chicken strip, onions & spicy sauces",
+                "item5_price": "119"
+            },
+            {
+                "item_id": 6,
+                "item6": "Double Chicken Roll",
+                "item6_image": "https://i.ibb.co/LtSRbXc/Double-Chicken-Roll.jpg",
+                "item6_type": "Non veg",
+                "description": "KFC's take on the street style roll with double chicken strips, onions & spicy sauces",
+                "item6_price": "168"
+            },
+            {
+                "item_id": 7,
+                "item7": "Classic Chicken Roll Meal for 2",
+                "item7_image": "https://i.ibb.co/7WrVpx5/Classic-Chicken-Roll-Meal-for-2.jpg",
+                "item7_type": "Non veg",
+                "description": "Deal combo of 2 Classic Chicken Rolls, Large Fries, 2 Dips & Pepsi 475ml",
+                "item7_price": "475"
+            },
+            {
+                "item_id": 8,
+                "item8": "Double Chicken Roll Meal for 2",
+                "item8_image": "https://i.ibb.co/GpY5p6y/Double-Chicken-Roll-Meal-for-2.jpg",
+                "item8_type": "Non veg",
+                "description": "Deal combo of 2 Double Chicken Rolls, Large Fries, 2 Dips & Pepsi 475ml",
+                "item8_price": "548"
+            },
+            {
+                "item_id": 9,
+                "item9": "2 Classic Chicken Roll",
+                "item9_image": "https://i.ibb.co/SmTTZcK/2-Classic-Chicken-Roll.jpg",
+                "item9_type": "Non veg",
+                "description": "Double the fun with 2 Classic Chicken Rolls",
+                "item9_price": "228"
+            },
+            {
+                "item_id": 10,
+                "item10": "2 Double Chicken Roll",
+                "item10_image": "https://i.ibb.co/w444BVG/2-Double-Chicken-Roll.jpg",
+                "item10_type": "Non veg",
+                "description": "Double the fun with 2 Double Chicken Rolls",
+                "item10_price": "328"
+            }]
+    }
+]
+)

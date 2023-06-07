@@ -1,0 +1,641 @@
+db.location.insert(
+    [
+        {
+            "location_id": 1,
+            "location_name": "Prozone Mall, Coimbatore",
+            "state_id": 1,
+            "state": "Tamil Nadu",
+            "country_name": "India"
+        },
+        {
+            "location_id": 2,
+            "location_name": "SKLS Galaxy Mall, Chennai",
+            "state_id": 1,
+            "state": "Tamil Nadu",
+            "country_name": "India"
+        },
+        {
+            "location_id": 3,
+            "location_name": "Reliance Mall, Salem",
+            "state_id": 1,
+            "state": "Tamil Nadu",
+            "country_name": "India"
+        },
+        {
+            "location_id": 4,
+            "location_name": "Mantri Mall, Bengaluru",
+            "state_id": 2,
+            "state": "Karnataka",
+            "country_name": "India"
+        },
+        {
+            "location_id": 5,
+            "location_name": "Forum City Centre Mall, Mysore",
+            "state_id": 2,
+            "state": "Karnataka",
+            "country_name": "India"
+        },
+        {
+            "location_id": 6,
+            "location_name": "City Centre mall, Mangaluru",
+            "state_id": 2,
+            "state": "Karnataka",
+            "country_name": "India"
+        },
+        {
+            "location_id": 7,
+            "location_name": "MGB Felicity Mall, Nellore",
+            "state_id": 3,
+            "state": "Andhra Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 8,
+            "location_name": "PVP Square, MG Road, Vijayawada",
+            "state_id": 3,
+            "state": "Andhra Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 9,
+            "location_name": "Central Mall, Visakhapatnam",
+            "state_id": 3,
+            "state": "Andhra Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 10,
+            "location_name": "City Centre Mall, Guwahati",
+            "state_id": 4,
+            "state": "Assam",
+            "country_name": "India"
+        },
+        {
+            "location_id": 11,
+            "location_name": "Mouza Beltola Hatigaon, Kamrup",
+            "state_id": 4,
+            "state": "Assam",
+            "country_name": "India"
+        },
+        {
+            "location_id": 12,
+            "location_name": "Ambuja City Centre Mall, Patna",
+            "state_id": 5,
+            "state": "Bihar",
+            "country_name": "India"
+        },
+        {
+            "location_id": 13,
+            "location_name": " V Bazar Navratan Hatta, Purnia",
+            "state_id": 5,
+            "state": "Bihar",
+            "country_name": "India"
+        },
+        {
+            "location_id": 14,
+            "location_name": "Metro Mall, Patna",
+            "state_id": 5,
+            "state": "Bihar",
+            "country_name": "India"
+        },
+        {
+            "location_id": 15,
+            "location_name": "Rama Magneto Mall, Bilaspur",
+            "state_id": 6,
+            "state": "Chhattisgarh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 16,
+            "location_name": "Surya Treasure Island Mall, Bhilai",
+            "state_id": 6,
+            "state": "Chhattisgarh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 17,
+            "location_name": "Metro Mall, Patna",
+            "state_id": 7,
+            "state": "Chhattisgarh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 18,
+            "location_name": "Metro Mall, Patna",
+            "state_id": 7,
+            "state": "Chhattisgarh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 19,
+            "location_name": "Metro Mall, Patna",
+            "state_id": 7,
+            "state": "Chhattisgarh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 20,
+            "location_name": "Pacific mall, New Delhi",
+            "state_id": 8,
+            "state": "Delhi",
+            "country_name": "India"
+        },
+        {
+            "location_id": 21,
+            "location_name": "Select City Walk Mall, New Delhi",
+            "state_id": 8,
+            "state": "Delhi",
+            "country_name": "India"
+        },
+        {
+            "location_id": 22,
+            "location_name": "TDI Mall, New Delhi",
+            "state_id": 8,
+            "state": "Delhi",
+            "country_name": "India"
+        },
+        {
+            "location_id": 23,
+            "location_name": "Mall De Goa, Porvorim",
+            "state_id": 9,
+            "state": "Goa",
+            "country_name": "India"
+        },
+        {
+            "location_id": 24,
+            "location_name": "Dabolim International Airport Dabolim South Goa",
+            "state_id": 9,
+            "state": "Goa",
+            "country_name": "India"
+        },
+        {
+            "location_id": 25,
+            "location_name": "Alpha 1 Mall, Ahmedabad",
+            "state_id": 10,
+            "state": "Gujarat",
+            "country_name": "India"
+        },
+        {
+            "location_id": 26,
+            "location_name": "Central Mall, Vadodara",
+            "state_id": 10,
+            "state": "Gujarat",
+            "country_name": "India"
+        },
+        {
+            "location_id": 27,
+            "location_name": "Eva The Mall, Vadodara",
+            "state_id": 10,
+            "state": "Gujarat",
+            "country_name": "India"
+        },
+        {
+            "location_id": 28,
+            "location_name": "Piyush Mahindra Mall, Faridabad",
+            "state_id": 11,
+            "state": "Haryana",
+            "country_name": "India"
+        },
+        {
+            "location_id": 29,
+            "location_name": "Crown Interior Mall, Faridabad",
+            "state_id": 11,
+            "state": "Haryana",
+            "country_name": "India"
+        },
+        {
+            "location_id": 30,
+            "location_name": "Ambience Mall, Gurugram",
+            "state_id": 11,
+            "state": "Haryana",
+            "country_name": "India"
+        },
+        {
+            "location_id": 31,
+            "location_name": "Maximus Mall, Dharamshala",
+            "state_id": 12,
+            "state": "Himachal Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 32,
+            "location_name": "Wave Mall, Jammu",
+            "state_id": 13,
+            "state": "Jammu And Kashmir",
+            "country_name": "India"
+        },
+        {
+            "location_id": 33,
+            "location_name": "Enigma Shopping Complex, Budgam",
+            "state_id": 13,
+            "state": "Jammu And Kashmir",
+            "country_name": "India"
+        },
+        {
+            "location_id": 34,
+            "location_name": "Ozone Galleria Mall, Dhanbad",
+            "state_id": 14,
+            "state": "Jharkhand",
+            "country_name": "India"
+        },
+        {
+            "location_id": 35,
+            "location_name": "Unit Number RT 01A P & M Mall, Jamshedpur",
+            "state_id": 14,
+            "state": "Jharkhand",
+            "country_name": "India"
+        },
+        {
+            "location_id": 36,
+            "location_name": "Nucleus Mall, Ranchi",
+            "state_id": 14,
+            "state": "Jharkhand",
+            "country_name": "India"
+        },
+        {
+            "location_id": 37,
+            "location_name": "RP Mall, Kozhikode",
+            "state_id": 15,
+            "state": "Kerala",
+            "country_name": "India"
+        },
+        {
+            "location_id": 38,
+            "location_name": "Hi Lite Mall, Kozhikode",
+            "state_id": 15,
+            "state": "Kerala",
+            "country_name": "India"
+        },
+        {
+            "location_id": 39,
+            "location_name": "Selex East Mall, Thrissur",
+            "state_id": 15,
+            "state": "Kerala",
+            "country_name": "India"
+        },
+        {
+            "location_id": 40,
+            "location_name": "Malhar Mega Mall, Indore",
+            "state_id": 16,
+            "state": "Madhya Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 41,
+            "location_name": "DB City Mall, Bhopal",
+            "state_id": 16,
+            "state": "Madhya Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 42,
+            "location_name": "DB City Mall, Gwalior",
+            "state_id": 16,
+            "state": "Madhya Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 43,
+            "location_name": "Phoenix Palladium Mall, Mumbai",
+            "state_id": 17,
+            "state": "Maharashtra",
+            "country_name": "India"
+        },
+        {
+            "location_id": 44,
+            "location_name": "Oberoi Mall, Mumbai",
+            "state_id": 17,
+            "state": "Maharashtra",
+            "country_name": "India"
+        },
+        {
+            "location_id": 45,
+            "location_name": "Korum Mall, Thane",
+            "state_id": 17,
+            "state": "Maharashtra",
+            "country_name": "India"
+        },
+        {
+            "location_id": 46,
+            "location_name": "Inorbit Mall, Navi Mumbai",
+            "state_id": 17,
+            "state": "Maharashtra",
+            "country_name": "India"
+        },
+        {
+            "location_id": 47,
+            "location_name": "Prozone Mall, Aurangabad",
+            "state_id": 17,
+            "state": "Maharashtra",
+            "country_name": "India"
+        },
+        {
+            "location_id": 48,
+            "location_name": "New Lamka Gocinkhup Veng, Churachandpur",
+            "state_id": 18,
+            "state": "Manipur",
+            "country_name": "India"
+        },
+        {
+            "location_id": 49,
+            "location_name": "Mamcy Mall, Imphal",
+            "state_id": 18,
+            "state": "Manipur",
+            "country_name": "India"
+        },
+        {
+            "location_id": 50,
+            "location_name": "Anderson Plaza, Shillong",
+            "state_id": 19,
+            "state": "Meghalaya",
+            "country_name": "India"
+        },
+        {
+            "location_id": 51,
+            "location_name": "Pal Heights Mall, Bhubaneswar",
+            "state_id": 20,
+            "state": "Odisha",
+            "country_name": "India"
+        },
+        {
+            "location_id": 52,
+            "location_name": "DN Regalia Mall, Bhubaneswar",
+            "state_id": 20,
+            "state": "Odisha",
+            "country_name": "India"
+        },
+        {
+            "location_id": 53,
+            "location_name": "Providence Mall, Puducherry",
+            "state_id": 21,
+            "state": "Puducherry",
+            "country_name": "India"
+        },
+        {
+            "location_id": 54,
+            "location_name": "JASPA Complex, Puducherry",
+            "state_id": 21,
+            "state": "Puducherry",
+            "country_name": "India"
+        },
+        {
+            "location_id": 55,
+            "location_name": "West End Mall, Ludhiana",
+            "state_id": 22,
+            "state": "Punjab",
+            "country_name": "India"
+        },
+        {
+            "location_id": 56,
+            "location_name": "Ansal Plaza Mall, Ludhiana",
+            "state_id": 22,
+            "state": "Punjab",
+            "country_name": "India"
+        },
+        {
+            "location_id": 57,
+            "location_name": "Trillium Mall, Amritsar",
+            "state_id": 22,
+            "state": "Punjab",
+            "country_name": "India"
+        },
+        {
+            "location_id": 58,
+            "location_name": "MKC Mall, Jalandhar",
+            "state_id": 22,
+            "state": "Punjab",
+            "country_name": "India"
+        },
+        {
+            "location_id": 59,
+            "location_name": "Pathankot Novelty Mall, Pathankot",
+            "state_id": 22,
+            "state": "Punjab",
+            "country_name": "India"
+        },
+        {
+            "location_id": 60,
+            "location_name": "HT Mall, Hoshiarpur",
+            "state_id": 22,
+            "state": "Punjab",
+            "country_name": "India"
+        },
+        {
+            "location_id": 61,
+            "location_name": "North Country Mall, Mohali",
+            "state_id": 22,
+            "state": "Punjab",
+            "country_name": "India"
+        },
+        {
+            "location_id": 62,
+            "location_name": "Bestech Square Mall, Mohali",
+            "state_id": 22,
+            "state": "Punjab",
+            "country_name": "India"
+        },
+        {
+            "location_id": 63,
+            "location_name": "No 1, World Trade Park, Food Court,  Jaipur",
+            "state_id": 23,
+            "state": "Rajasthan",
+            "country_name": "India"
+        },
+        {
+            "location_id": 64,
+            "location_name": "The Lakecity Mall, Udaipur",
+            "state_id": 23,
+            "state": "Rajasthan",
+            "country_name": "India"
+        },
+        {
+            "location_id": 65,
+            "location_name": "Urban Square Mall, Udaipur",
+            "state_id": 23,
+            "state": "Rajasthan",
+            "country_name": "India"
+        },
+        {
+            "location_id": 66,
+            "location_name": "Urban Square Mall, Udaipur",
+            "state_id": 23,
+            "state": "Rajasthan",
+            "country_name": "India"
+        },
+        {
+            "location_id": 67,
+            "location_name": "Ridhi Sidhi Mall, Sriganganagar",
+            "state_id": 23,
+            "state": "Rajasthan",
+            "country_name": "India"
+        },
+        {
+            "location_id": 68,
+            "location_name": "Vajra Cinema Hall, East Sikkim",
+            "state_id": 24,
+            "state": "Sikkim",
+            "country_name": "India"
+        },
+        {
+            "location_id": 69,
+            "location_name": "Inorbit Mall, Hyderabad",
+            "state_id": 25,
+            "state": "Telangana",
+            "country_name": "India"
+        },
+        {
+            "location_id": 70,
+            "location_name": "MPM Millenium Mall, Hyderabad",
+            "state_id": 25,
+            "state": "Telangana",
+            "country_name": "India"
+        },
+        {
+            "location_id": 71,
+            "location_name": "AMR Planet Mall, Hyderabad",
+            "state_id": 25,
+            "state": "Telangana",
+            "country_name": "India"
+        },
+        {
+            "location_id": 72,
+            "location_name": "Venu Mall,, Nizamabad",
+            "state_id": 25,
+            "state": "Telangana",
+            "country_name": "India"
+        },
+        {
+            "location_id": 73,
+            "location_name": "Jeevan Reddy Mall, Armoor",
+            "state_id": 25,
+            "state": "Telangana",
+            "country_name": "India"
+        },
+        {
+            "location_id": 74,
+            "location_name": "KFC Restaurant 6, Agartala",
+            "state_id": 26,
+            "state": "Tripura",
+            "country_name": "India"
+        },
+        {
+            "location_id": 75,
+            "location_name": "Gaur City Mall, Ghaziabad",
+            "state_id": 27,
+            "state": "Uttar Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 76,
+            "location_name": "Pacific Mall, Ghaziabad",
+            "state_id": 27,
+            "state": "Uttar Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 77,
+            "location_name": "Mall of India, Noida",
+            "state_id": 27,
+            "state": "Uttar Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 78,
+            "location_name": "Logix Mall, Noida",
+            "state_id": 27,
+            "state": "Uttar Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 79,
+            "location_name": "Gamma Shooping Mall, Greater Noida",
+            "state_id": 27,
+            "state": "Uttar Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 80,
+            "location_name": "City Mall, Aligarh",
+            "state_id": 27,
+            "state": "Uttar Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 81,
+            "location_name": "Z Square Mall, Kanpur",
+            "state_id": 27,
+            "state": "Uttar Pradesh",
+            "country_name": "India"
+        },
+        {
+            "location_id": 82,
+            "location_name": "Centrio Mall, Dehradun",
+            "state_id": 28,
+            "state": "Uttarakhand",
+            "country_name": "India"
+        },
+        {
+            "location_id": 83,
+            "location_name": "Metropolis Mall, Rudrapur",
+            "state_id": 28,
+            "state": "Uttarakhand",
+            "country_name": "India"
+        },
+        {
+            "location_id": 84,
+            "location_name": "Pacific Mall, Food Court, Dehradun",
+            "state_id": 28,
+            "state": "Uttarakhand",
+            "country_name": "India"
+        },
+        {
+            "location_id": 85,
+            "location_name": "Quest Mall, Kolkata",
+            "state_id": 29,
+            "state": "West Bengal",
+            "country_name": "India"
+        },
+        {
+            "location_id": 86,
+            "location_name": "Lake View Mall, Kolkata",
+            "state_id": 29,
+            "state": "West Bengal",
+            "country_name": "India"
+        },
+        {
+            "location_id": 87,
+            "location_name": "City center mall, Bankura",
+            "state_id": 29,
+            "state": "West Bengal",
+            "country_name": "India"
+        },
+        {
+            "location_id": 88,
+            "location_name": "South City Mall, Kolkata",
+            "state_id": 29,
+            "state": "West Bengal",
+            "country_name": "India"
+        },
+        {
+            "location_id": 89,
+            "location_name": "Bangabasi Mall, Howrah",
+            "state_id": 29,
+            "state": "West Bengal",
+            "country_name": "India"
+        },
+        {
+            "location_id": 90,
+            "location_name": "Junction Mall, Durgapur",
+            "state_id": 29,
+            "state": "West Bengal",
+            "country_name": "India"
+        },
+        {
+            "location_id": 91,
+            "location_name": "Galaxy Mall Asansol",
+            "state_id": 29,
+            "state": "West Bengal",
+            "country_name": "India"
+        }
+    ]
+    )
