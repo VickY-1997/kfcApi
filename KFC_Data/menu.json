@@ -4,10 +4,10 @@ db.menu.insert(
         "menu_id": 1,
         "menu_name": "box meal",
         "menu_image": "https://i.ibb.co/ypSyrBt/BOX-MEALS.jpg",
-        "boxMeal_list": [
+        "boxMeal_id": [
             {
                 "item_id": 1,
-                "item1": "All Chicken Box",
+                "item_name": "All Chicken Box",
                 "item1_image": "https://i.ibb.co/jgqdKDs/All-Chicken-Box-Meal.jpg",
                 "item1_type": "Non veg",
                 "description": "A Box with your favorites! Get 1 pc Hot & Crispy, 2 Hot Wings & 1 Chicken Strip at a deal price",
@@ -15,7 +15,7 @@ db.menu.insert(
             },
             {
                 "item_id": 2,
-                "item2": "Zinger Tandoori Box",
+                "item_name": "Zinger Tandoori Box",
                 "item2_image": "https://i.ibb.co/jLnsMc0/Zinger-Tandoori-Box.jpg",
                 "item2_type": "Non veg",
                 "description": "A deal for Tandoori lovers : Get 1 Tandoori Zinger, 2 Hot Wings, 1 Veg Patty & 1 Pepsi 475ml",
@@ -23,7 +23,7 @@ db.menu.insert(
             },
             {
                 "item_id": 3,
-                "item3": "Popcorn Biryani Box",
+                "item_name": "Popcorn Biryani Box",
                 "item3_image": "https://i.ibb.co/h24HvdH/Popcorn-Biryani-Box.jpg",
                 "item3_type": "Non veg",
                 "description": "Biryani lovers unite : Get 1 Popcorn Biryani Bucket with gravy, 2 Hot Wings & 1 Pepsi 475ml",
@@ -31,7 +31,7 @@ db.menu.insert(
             },
             {
                 "item_id": 4,
-                "item4": "Veg Zinger Box",
+                "item_name": "Veg Zinger Box",
                 "item4_image": "https://i.ibb.co/FgtKYpp/Veg-Zinger-Box.jpg",
                 "item4_type": "Veg",
                 "description": "A deal for the Veg Zinger lovers : Get 1 Veg Zinger, 2 Veg Patties & 1 Pepsi 475ml",
@@ -39,7 +39,7 @@ db.menu.insert(
             },
             {
                 "item_id": 5,
-                "item5": "Veg Biryani Box",
+                "item_name": "Veg Biryani Box",
                 "item5_image": "https://i.ibb.co/pWt3fbY/Veg-Biryani-Box.jpg",
                 "item5_type": "Veg",
                 "description": "Biryani lovers unite : Get 1 Veg Biryani Bucket with gravy, 1 Veg Patty & 1 Pepsi 475ml",
@@ -50,10 +50,10 @@ db.menu.insert(
         "menu_id": 2,
         "menu_name": "Biryani Buckets",
         "menu_image": "https://i.ibb.co/Z6LNrJQ/BIRYANI-BUCKETS.jpg",
-        "Biryani_list": [
+        "BiryaniList_id": [
             {
                 "item_id": 1,
-                "item1": "Classic Biryani Combo",
+                "item_name": "Classic Biryani Combo",
                 "item1_image": "https://i.ibb.co/3WHrSzr/Classic-Biryani-Combo.jpg",
                 "item1_type": "Non veg",
                 "description": "Large Biryani rice with 2 Hot & Crispy, 2 Gravies, 4 Strips & 1 Pepsi 475ml",
@@ -61,7 +61,7 @@ db.menu.insert(
             },
             {
                 "item_id": 2,
-                "item2": "Smoky Grilled Biryani Combo",
+                "item_name": "Smoky Grilled Biryani Combo",
                 "item2_image": "https://i.ibb.co/MfGxDXM/Smoky-Grilled-Biryani-Combo.jpg",
                 "item2_type": "Non veg",
                 "description": "Large Biryani rice with 2 Smoky Red, 2 Gravies, Med Popcorn & 1 Pepsi 475ml",
@@ -69,7 +69,7 @@ db.menu.insert(
             },
             {
                 "item_id": 3,
-                "item3": "Popcorn Biryani Combo",
+                "item_name": "Popcorn Biryani Combo",
                 "item3_image": "https://i.ibb.co/9TZm58D/Popcorn-Biryani-Combo.jpg",
                 "item3_type": "Non veg",
                 "description": "Large Biryani & Chicken Popcorn, 2 Spicy Gravies, 4 Wings & 1 Pepsi 475ml",
@@ -77,7 +77,7 @@ db.menu.insert(
             },
             {   
                 "item_id": 4,
-                "item4": "Classic Chicken Biryani Bucket",
+                "item_name": "Classic Chicken Biryani Bucket",
                 "item4_image": "https://i.ibb.co/vx0s57n/Classic-Chicken-Biryani-Bucket.jpg",
                 "item4_type": "Non veg",
                 "description": "Large portions of Biryani rice served with 2 pc Hot & Crispy Chicken & 2 Gravies",
@@ -85,7 +85,7 @@ db.menu.insert(
             },
             {
                 "item_id": 5,
-                "item5": "Popcorn Chicken Biryani Bucket",
+                "item_name": "Popcorn Chicken Biryani Bucket",
                 "item5_image": "https://i.ibb.co/7VFRCq8/Popcorn-Chicken-Biryani-Bucket.jpg",
                 "item5_type": "Non veg",
                 "description": "Large portions of Biryani rice served with Chicken Popcorn & 2 Gravies",
@@ -93,7 +93,7 @@ db.menu.insert(
             },
             {
                 "item_id": 6,
-                "item6": "Smoky Grilled Biryani Bucket",
+                "item_name": "Smoky Grilled Biryani Bucket",
                 "item6_image": "https://i.ibb.co/TbtFrTC/Smoky-Grilled-Biryani-Bucket.jpg",
                 "item6_type": "Non veg",
                 "description": "Large portions of Biryani rice served with 2 pc Smoky Red Chicken & 2 Gravies",
@@ -101,7 +101,7 @@ db.menu.insert(
             },
             {
                 "item_id": 7,
-                "item7": "Veg Biryani Bucket",
+                "item_name": "Veg Biryani Bucket",
                 "item7_image": "https://i.ibb.co/N2pLWJZ/Veg-Biryani-Bucket.jpg",
                 "item7_type": "Veg",
                 "description": "Hyderabadi style Biryani rice served with Veg Patty & Spicy Gravy",

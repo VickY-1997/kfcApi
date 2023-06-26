@@ -12,6 +12,7 @@ Mongodb - mongodb+srv://vicky_03:2gBDRqpEelizHMgw@kfc.uh3mvos.mongodb.net/?retry
 
 => all menu list 
 - http://localhost:4545/menu
+-https://kfcapi-9az6.onrender.com/menu
 
 
 --------- page-3 -----------
