@@ -34,16 +34,23 @@ app.get('/location',async (req,res) => {
 
 /// all menutypes                   
 
-app.get('/menu', async (req,res) => {
+app.get('/MenuType', async (req,res) => {
     let query = {};
     if(req.query.menuId){
-        query={menu_id: Number(req.query.menuId)}
+        query={MenuType_id: Number(req.query.menuId)}
     }
     else{
         query = {}
     }
-    let collection = "menu";
+    let collection = "MenuType";
     let output = await getData(collection,query);
+    res.send(output)
+})
+
+app.get('/wedOffer', async(req,res) => {
+    let query = {}
+    let collection = 'wedOffer'
+    let output = await getData(collection,query)
     res.send(output)
 })
 

@@ -1,0 +1,59 @@
+db.biryaniBuckets.insert(
+[
+    {
+        "biryaniBuckets_id": 1,
+        "item_name": "Classic Biryani Combo",
+        "item_img": "https://i.ibb.co/3WHrSzr/Classic-Biryani-Combo.jpg",
+        "item_type": "Non veg",
+        "description": "Large Biryani rice with 2 Hot & Crispy, 2 Gravies, 4 Strips & 1 Pepsi 475ml",
+        "item_price": "740"
+    },
+    {
+        "biryaniBuckets_id": 2,
+        "item_name": "Smoky Grilled Biryani Combo",
+        "item_img": "https://i.ibb.co/MfGxDXM/Smoky-Grilled-Biryani-Combo.jpg",
+        "item_type": "Non veg",
+        "description": "Large Biryani rice with 2 Smoky Red, 2 Gravies, Med Popcorn & 1 Pepsi 475ml",
+        "item_price": "740"
+    },
+    {
+        "biryaniBuckets_id": 3,
+        "item_name": "Popcorn Biryani Combo",
+        "item_img": "https://i.ibb.co/9TZm58D/Popcorn-Biryani-Combo.jpg",
+        "item_type": "Non veg",
+        "description": "Large Biryani & Chicken Popcorn, 2 Spicy Gravies, 4 Wings & 1 Pepsi 475ml",
+        "item_price": "690"
+    },
+    {   
+        "biryaniBuckets_id": 4,
+        "item_name": "Classic Chicken Biryani Bucket",
+        "item_img": "https://i.ibb.co/vx0s57n/Classic-Chicken-Biryani-Bucket.jpg",
+        "item_type": "Non veg",
+        "description": "Large portions of Biryani rice served with 2 pc Hot & Crispy Chicken & 2 Gravies",
+        "item_price": "475"
+    },
+    {
+        "biryaniBuckets_id": 5,
+        "item_name": "Popcorn Chicken Biryani Bucket",
+        "item_img": "https://i.ibb.co/7VFRCq8/Popcorn-Chicken-Biryani-Bucket.jpg",
+        "item_type": "Non veg",
+        "description": "Large portions of Biryani rice served with Chicken Popcorn & 2 Gravies",
+        "item_price": "475"
+    },
+    {
+        "biryaniBuckets_id": 6,
+        "item_name": "Smoky Grilled Biryani Bucket",
+        "item_img": "https://i.ibb.co/TbtFrTC/Smoky-Grilled-Biryani-Bucket.jpg",
+        "item_type": "Non veg",
+        "description": "Large portions of Biryani rice served with 2 pc Smoky Red Chicken & 2 Gravies",
+        "item_price": "475"
+    },
+    {
+        "biryaniBuckets_id": 7,
+        "item_name": "Veg Biryani Bucket",
+        "item_img": "https://i.ibb.co/N2pLWJZ/Veg-Biryani-Bucket.jpg",
+        "item_type": "Veg",
+        "description": "Hyderabadi style Biryani rice served with Veg Patty & Spicy Gravy",
+        "item_price": "199"
+    }
+])

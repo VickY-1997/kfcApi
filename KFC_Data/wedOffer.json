@@ -1,0 +1,48 @@
+db.wedOffer.insert(
+[
+    {
+        "wedOffer_id" : 1,
+        "wedOffer_name" : "10-Peri-Peri-Leg-Piece-4-Dips",
+        "wedOffer_img" : "https://i.ibb.co/YfTj1BQ/10-Peri-Peri-Leg-Piece-4-Dips.jpg"
+    },
+    {
+        "wedOffer_id" : 2,
+        "wedOffer_name" : "5-5-Bucket",
+        "wedOffer_img" : "https://i.ibb.co/MBp116m/5-5-Bucket.jpg"
+    },
+    {
+        "wedOffer_id" : 3,
+        "wedOffer_name" : "Classic-Chicken-Biryani-Bucket-Pepsi",
+        "wedOffer_img" : "https://i.ibb.co/7yWGL0N/Classic-Chicken-Biryani-Bucket-Pepsi-combo.jpg"
+    },
+    {
+        "wedOffer_id" : 4,
+        "wedOffer_name" : "Mingles-Meal",
+        "wedOffer_img" : "https://i.ibb.co/JvJR9Gf/Mingles-Meal.jpg"
+    },
+    {
+        "wedOffer_id" : 5,
+        "wedOffer_name" : "Popcorn-Chicken-Biryani-Bucket-Pepsi",
+        "wedOffer_img" : "https://i.ibb.co/xC44QtS/Popcorn-Chicken-Biryani-Bucket-Pepsi-combo.jpg"
+    },
+    {
+        "wedOffer_id" : 6,
+        "wedOffer_name" : "Wednesday-Boneless-Bucket-Meal",
+        "wedOffer_img" : "https://i.ibb.co/cg7LkSD/Wednesday-Boneless-Bucket-Meal.jpg"
+    },
+    {
+        "wedOffer_id" : 7,
+        "wedOffer_name" : "Wednesday-Hot-Crispy-Bucket-Meal",
+        "wedOffer_img" : "https://i.ibb.co/8Xpntpz/Wednesday-Hot-Crispy-Bucket-Meal.jpg"
+    },
+    {
+        "wedOffer_id" : 8,
+        "wedOffer_name" : "Wednesday-special-10-pc-Hot-Crispy",
+        "wedOffer_img" : "https://i.ibb.co/sHV1T7k/Wednesday-special-10-pc-Hot-Crispy.jpg"
+    },
+    {
+        "wedOffer_id" : 9,
+        "wedOffer_name" : "Special-12-pc-Peri-Peri-Strips-4-dips",
+        "wedOffer_img" : "https://i.ibb.co/tKR35G2/Wednesday-Special-12-pc-Peri-Peri-Strips-4-dips.jpg"
+    },
+])

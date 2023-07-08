@@ -1,0 +1,44 @@
+db.menuType.insert(
+[
+    {
+       "menuType_id": 1,
+       "menuType": "box meal",
+       "menu_image": "https://i.ibb.co/ypSyrBt/BOX-MEALS.jpg"
+    },
+    {
+        "menuType_id": 2,
+        "menuType": "Biryani Buckets",
+        "menu_image": "https://i.ibb.co/Z6LNrJQ/BIRYANI-BUCKETS.jpg"
+    },
+    {
+        "menuType_id": 3,
+        "menuType": "Burgers",
+        "menu_image": "https://i.ibb.co/pZnMTNz/BURGERS.jpg"
+    },
+    {
+        "menuType_id": 4,
+        "menuType": "Chicken Bucket",
+        "menu_image": "https://i.ibb.co/sKx2h73/CHICKEN-BUCKETS.jpg"
+    },
+    {
+        "menuType_id": 5,
+        "menuType": "Snacks",
+        "menu_image": "https://i.ibb.co/zht8Zm6/snacks.jpg"
+    },
+    {
+        "menuType_id": 6,
+        "menuType": "Beverages",
+        "menu_image": "https://i.ibb.co/b7wL7n3/beverages.jpg"
+    },
+    {
+        "menuType_id": 7,
+        "menuType": "Chicken Rolls",
+        "menu_image": "https://i.ibb.co/4p557j8/CHICKEN-ROLLS.jpg"
+    },
+    {
+        "menuType_id": 8,
+        "menuType": "View All Menu",
+        "menu_image": "https://i.ibb.co/fpynGV7/View-All-Menu.jpg"
+    }
+
+])
