@@ -54,6 +54,14 @@ app.get('/wedOffer', async(req,res) => {
     res.send(output)
 })
 
+
+app.get('/boxMeal', async (req,res) => {
+    let query = {}
+    let collection = 'boxMeal'
+    let output = await getData(collection,query)
+    res.send(output)
+})
+
 /// orders
 
 app.get('/orders', async (req,res) => {
