@@ -50,7 +50,7 @@ db.menu.insert(
         "menu_id": 2,
         "menu_name": "Biryani Buckets",
         "menu_image": "https://i.ibb.co/Z6LNrJQ/BIRYANI-BUCKETS.jpg",
-        "BiryaniList_id": [
+        "BiryaniList": [
             {
                 "item_id": 1,
                 "item_name": "Classic Biryani Combo",

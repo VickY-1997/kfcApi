@@ -34,15 +34,15 @@ app.get('/location',async (req,res) => {
 
 /// all menutypes                   
 
-app.get('/MenuType', async (req,res) => {
+app.get('/quickSearch', async (req,res) => {
     let query = {};
-    if(req.query.menuId){
-        query={MenuType_id: Number(req.query.menuId)}
+    if(req.query.mealId){
+        query={mealtype_id: Number(req.query.mealId)}
     }
     else{
         query = {}
     }
-    let collection = "MenuType";
+    let collection = "quicksearch";
     let output = await getData(collection,query);
     res.send(output)
 })
@@ -54,13 +54,19 @@ app.get('/wedOffer', async(req,res) => {
     res.send(output)
 })
 
-
-app.get('/boxMeal', async (req,res) => {
+app.get('/kfcStore', async(req,res) => {
     let query = {}
-    let collection = 'boxMeal'
+    if(req.query.mealTypes){
+        query = {"mealTypes.mealTypes_id" : Number(req.query.mealTypes)}
+    }
+    else{
+        query = {}
+    }
+    let collection = 'kfcStore'
     let output = await getData(collection,query)
     res.send(output)
 })
+
 
 /// orders
 

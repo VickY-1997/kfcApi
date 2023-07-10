@@ -1,0 +1,44 @@
+db.quicksearch.insert(
+[
+        {
+            "mealtype_id": 1,
+            "mealtype": "box meal",
+            "meal_image": "https://i.ibb.co/ypSyrBt/BOX-MEALS.jpg"
+        },
+        {
+            "mealtype_id": 2,
+            "mealtype": "Biryani Buckets",
+            "meal_image": "https://i.ibb.co/Z6LNrJQ/BIRYANI-BUCKETS.jpg"
+        },
+        {
+            "mealtype_id": 3,
+            "mealtype": "Burgers",
+            "meal_image": "https://i.ibb.co/pZnMTNz/BURGERS.jpg"
+        },
+        {
+            "mealtype_id": 4,
+            "mealtype": "Chicken Bucket",
+            "meal_image": "https://i.ibb.co/sKx2h73/CHICKEN-BUCKETS.jpg"
+        },
+        {
+            "mealtype_id": 5,
+            "mealtype": "Snacks",
+            "meal_image": "https://i.ibb.co/zht8Zm6/snacks.jpg"
+        },
+        {
+            "mealtype_id": 6,
+            "mealtype": "Beverages",
+            "meal_image": "https://i.ibb.co/b7wL7n3/beverages.jpg"
+        },
+        {
+            "mealtype_id": 7,
+            "mealtype": "Chicken Rolls",
+            "meal_image": "https://i.ibb.co/4p557j8/CHICKEN-ROLLS.jpg"
+        },
+        {
+            "mealtype_id": 8,
+            "mealtype": "View All Menu",
+            "meal_image": "https://i.ibb.co/fpynGV7/View-All-Menu.jpg"
+        }
+    
+])

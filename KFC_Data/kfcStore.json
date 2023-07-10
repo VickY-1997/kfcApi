@@ -1,0 +1,51 @@
+db.kfcStore.insert(
+[
+    {
+         "item_id" : 1,
+         "item_name" : "All Chicken Box",
+         "item_image" : "https://i.ibb.co/jgqdKDs/All-Chicken-Box-Meal.jpg",
+         "item_price" : "189",
+         "mealTypes": [
+                        {
+                            "mealTypes_id": 1,
+                            "mealTypes_name": "box Meal"
+                            
+                        }]
+    },
+    {
+         "item_id" : 2,
+         "item_name" : "Zinger Tandoori Box",
+         "item_image" : "https://i.ibb.co/jLnsMc0/Zinger-Tandoori-Box.jpg",
+         "item_price" : "313",
+         "mealTypes": [
+                        {
+                            "mealTypes_id": 1,
+                            "mealTypes_name": "box Meal"
+                            
+                        }]
+    },
+    {
+         "item_id" : 3,
+         "item_name" : "Popcorn Biryani Box",
+         "item_image" : "https://i.ibb.co/h24HvdH/Popcorn-Biryani-Box.jpg",
+         "item_price" : "328",
+         "mealTypes": [
+                        {
+                            "mealTypes_id": 1,
+                            "mealTypes_name": "box Meal"
+                            
+                        }]
+    },
+    {
+         "item_id" : 4,
+         "item_name" : "Biryani Buket",
+         "item_image" : "https://i.ibb.co/h24HvdH/Popcorn-Biryani-Box.jpg",
+         "item_price" : "315",
+         "mealTypes": [
+                        {
+                            "mealTypes_id": 2,
+                            "mealTypes_name": "Biryani Buckets"
+                            
+                        }]
+    }
+])
