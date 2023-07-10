@@ -37,8 +37,8 @@ db.quicksearch.insert(
         },
         {
             "mealtype_id": 8,
-            "mealtype": "View All Menu",
-            "meal_image": "https://i.ibb.co/fpynGV7/View-All-Menu.jpg"
+            "mealtype": "Peri Peri Chicken",
+            "meal_image": "https://i.ibb.co/c24fFwg/Peri-Peri-Chicken.jpg"
         }
     
 ])

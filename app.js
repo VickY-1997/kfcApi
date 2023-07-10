@@ -42,7 +42,7 @@ app.get('/quickSearch', async (req,res) => {
     else{
         query = {}
     }
-    let collection = "quickSearch";
+    let collection = 'quickSearch'
     let output = await getData(collection,query);
     res.send(output)
 })
