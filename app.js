@@ -41,7 +41,7 @@ app.get('/quickSearch', async (req,res) => {
     }
     else{
         query = {}
-    }
+    }   
     let collection = 'quickSearch'
     let output = await getData(collection,query);
     res.send(output)
@@ -64,6 +64,29 @@ app.get('/kfcStore', async(req,res) => {
     }
     let collection = 'kfcStore'
     let output = await getData(collection,query)
+    res.send(output)
+})
+
+//details
+
+// app.get('/details', async(req,res) => {
+//     let query = {}
+//     if(req.query.itemDetails){
+//         query = {item_id: Number(req.query.itemDetails)}
+//     }
+//     else{
+//         query = {}
+//     }
+//     let collection = "kfcStore"
+//     let output = await getData(collection,query)
+//     res.send(output)
+// })
+
+app.get('/details/:id', async(req,res) => {
+    let id = Number(req.params.id);
+    let query = {item_id:id}
+    let collection = "kfcStore";
+    let output = await getData(collection,query);
     res.send(output)
 })
 
